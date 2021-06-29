@@ -63,7 +63,7 @@ function updateFilters() {
     // 9. Loop through all of the filters and keep any data that
     // matches the filter values
     // for (var filterValues in filters) {
-    //   filteredData = filteredData.filter(r => r[filterValues] === filters[filterValues]);
+    // filteredData = filteredData.filter(r => r[filterValues] === filters[filterValues]);
     // }
 
     Object.entries(filters).forEach(function ([keys, values]) {
