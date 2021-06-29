@@ -22,31 +22,31 @@ The user can reset the webpage after a filter has been applied to the table by s
 
 The user can filter the table to only display the data based on a certain date and this can be done by simply entering a date same as the displayed placeholder in the **Enter Date** field of the filter search as illustrated in the figure shown below. If the date exists in the data, the table will get updated and the data will get returned based on the entered date, however if the entered date is not present within the data, an empty table will get returned.
 
-![Date filter criteria](static/images/Date_filter_criteria.png)
+![Date filter criteria](static/images/Date_search.png)
 
 ### City Filter Criteria 
 
 The table can get updated based a desired city entered by the user into the **Enter City** field as shown in the figure depicted below.
 
-![City filter criteria](static/images/City_filter_criteria.png)
+![City filter criteria](static/images/City_search.png)
 
 ### State Filter Criteria
 
 The data can get filtered to update the table based on the a specific state simply by inputting the desired state as shown in the figure below. Additionally, the user has to ensure that the state is entered same as the sample displayed by simply entering the state shortcut such as "ar" instead of "Arkansas" otherwise the data won't get returned.
 
-![State filter criteria](static/images/State_filter_criteria.png)
+![State filter criteria](static/images/State_search.png)
 
 ### Country Filter Criteria
 
 The table can get updated based on the country by simply inputting the desired country into the **Enter Country** field of the search criteria.
 
-![Country filter criteria](static/images/Country_filter_criteria.png)
+![Country filter criteria](static/images/Country_search.png)
 
 ### Shape Filter Criteria
 
 Lastly, the desired shape can be entered by the user simply by following the placeholder displayed to update the data accordingly.
 
-![Shape filter criteria](static/images/Shape_filter_criteria.png)
+![Shape filter criteria](static/images/Shape_search.png)
 
 ### Combination of Filters
 
