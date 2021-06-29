@@ -35,9 +35,11 @@ function updateFilters() {
     // 4b. Save the value that was changed as a variable.
     let elementValue = changedElement.property("value");
     console.log(elementValue);
+
     // 4c. Save the id of the filter that was changed as a variable.
     let filterId = changedElement.attr("id");
     console.log(filterId);
+
     // 5. If a filter value was entered then add that filterId and value
     // to the filters list. Otherwise, clear that filter from the filters object.
     if (elementValue) {
@@ -60,9 +62,9 @@ function updateFilters() {
   
     // 9. Loop through all of the filters and keep any data that
     // matches the filter values
-    for (var filterValues in filters) {
-      filteredData = filteredData.filter(r => r[filterValues] === filters[filterValues]);
-    }
+    // for (var filterValues in filters) {
+    //   filteredData = filteredData.filter(r => r[filterValues] === filters[filterValues]);
+    // }
 
     Object.entries(filters).forEach(function ([keys, values]) {
       filteredData = filteredData.filter(row => row[keys]=== values);
