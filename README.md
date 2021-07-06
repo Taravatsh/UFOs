@@ -10,7 +10,7 @@ The purpose of this project is to help Dana provide more detailed analysis of UF
 
 ## Results
 
-This section of the project shows the process of using the search criteria for the new webpage.
+This section of the project shows the process of using the search criteria for the new webpage. The deployed web app can be viewed on Github pages through the following URL: [Deployed Web App](https://taravatsh.github.io/UFOs/).
 
 ### Page Initializing
 
